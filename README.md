@@ -1,5 +1,5 @@
 # Ex.05 Design a Website for Server Side Processing
-## Date:4-12-2024
+## Date:5-12-2024
 
 ## AIM:
  To design a website to calculate the power of a lamp filament in an incandescent bulb in the server side. 
@@ -39,20 +39,20 @@ math.html
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Power of a lamp</title>
+    <title>Power Calculator</title>
     <style>
         body {
-            background-color: rgb(2, 178, 64);
-            font-family: 'Lora', serif;
+            background-color: cyan;
+            font-family: 'Ariel', serif;
         }
         .container {
             width: 400px;
             margin: 50px auto;
             text-align: center;
-            background-color: rgb(23, 206, 212);
+            background-color: honeydew;
             color: rgb(60, 19, 222);
             padding: 20px;
-            border: 3px dashed rgb(3, 16, 19);
+            border: 3px dashed blue;
             border-radius: 10px;
         }
         input[type="text"] {
@@ -62,7 +62,7 @@ math.html
         }
         input[type="submit"] {
             padding: 5px 10px;
-            background-color: rgb(189, 196, 12);
+            background-color: red;
             color: rgb(248, 246, 246);
             border: none;
             cursor: pointer;
@@ -71,7 +71,7 @@ math.html
 </head>
 <body>
     <div class="container">
-    <h1>Power of a lamp</h1>
+    <h1>Power Calculator</h1>
 
     <form method="POST">
         {% csrf_token %}
@@ -135,10 +135,10 @@ urlpatterns = [
 
 
 ## SERVER SIDE PROCESSING:
-![alt text](<Screenshot (4).png>)
+![alt text](<Screenshot (11).png>)
 
 ## HOMEPAGE:
-![alt text](<Screenshot (5).png>)
+![alt text](<Screenshot (10).png>)
 
 ## RESULT:
 The program for performing server side processing is completed successfully.
